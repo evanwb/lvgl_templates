@@ -11,7 +11,7 @@ TFT_eSPI tft = TFT_eSPI();
 
 static lv_color_t buf1[TFT_WIDTH * TFT_HEIGHT / 5 * 2];
 lv_display_t* disp;
- 
+
 void my_disp_flush(lv_display_t* _disp, const lv_area_t* area,
                    uint8_t* color_p) {
   tft.startWrite();
